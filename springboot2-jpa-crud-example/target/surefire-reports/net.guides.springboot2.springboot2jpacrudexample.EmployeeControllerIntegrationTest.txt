@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 2, Skipped: 0, Time elapsed: 6.193 s <<< FAILURE! - in net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest
+testDeleteEmployee(net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest)  Time elapsed: 0.317 s  <<< FAILURE!
+java.lang.AssertionError
+	at net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest.testDeleteEmployee(EmployeeControllerIntegrationTest.java:87)
+
+testGetEmployeeById(net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest.testGetEmployeeById(EmployeeControllerIntegrationTest.java:54)
+
+testUpdateEmployee(net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest.testUpdateEmployee(EmployeeControllerIntegrationTest.java:74)
+
+testCreateEmployee(net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest)  Time elapsed: 0.062 s  <<< FAILURE!
+java.lang.AssertionError
+	at net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest.testCreateEmployee(EmployeeControllerIntegrationTest.java:67)
+
+testGetAllEmployees(net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError
+	at net.guides.springboot2.springboot2jpacrudexample.EmployeeControllerIntegrationTest.testGetAllEmployees(EmployeeControllerIntegrationTest.java:48)
+
